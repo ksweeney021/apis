@@ -40,7 +40,7 @@ for obj in output:
 # output to csv
 header = ['latitude', 'longitude', '# of earthquakes in 1000km', 'elevation in m']
 
-with open('/Users/kellysweeney/backstopFinal.csv', 'w') as csv_file:
+with open('/Users/kellysweeney/apis/backstopFinal.csv', 'w') as csv_file:
     writer = csv.writer(csv_file)
     writer.writerow(header)
     writer.writerows(result)

@@ -122,7 +122,7 @@ for obj in output:
 header = ['latitude', 'longitude', '# of earthquakes in 1000km', 'elevation in m']
 
 # open file to write to
-with open('/Users/kellysweeney/miniconda3/backstop.csv', 'w') as csv_file:
+with open('/Users/kellysweeney/apis/backstopFirst.csv', 'w') as csv_file:
     # create the csv writer to my file using writer function from csv module
     writer = csv.writer(csv_file)
     # write to csv
