@@ -50,7 +50,7 @@ df = pd.DataFrame(result)
 # df=df[header]
 df = df[df[3] != '0']
 df.columns = ["latitude", "longitude", "# of earthquakes in 1000km", "elevation in m"]
-df.to_csv('/Users/kellysweeney/apis/finalFinal.csv', index=False)
+df.to_csv('finalFinal.csv', index=False)
 # print(df)
 
 exit()
